@@ -1,0 +1,127 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#screen{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1633869699811-cd4f63049b36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fHdhdGNoJTIwZm9zc2lsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    filter: blur(6px);
+    background-position: bottom;
+    background-size: cover;
+}
+
+#main{
+    height: 85%;
+    width: 85%;
+    background-color: rgba(255, 255, 255, 0.403);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#back{
+    height: 97%;
+    width:97%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    position: relative;
+}
+
+#one{
+    height: 100%;
+    width: 35%;
+}
+
+#n1{
+    font-size: 20px;
+    position: absolute;
+    top: 168px;
+    left: 322px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.601);
+    margin-left: -150px;
+    margin-top: -10px;
+}
+
+p{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    z-index: 99;
+    color: rgba(255, 255, 255, 0.618);
+}
+
+a{
+    color: black;
+    position: absolute;
+    top: 80%;
+    left: 14.4%;
+    font-size: 18px;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+}
+
+a:hover{
+    font-weight: 500;
+}
+
+#one>h3{
+    height: 50px;
+    width: 100px;
+    font-size: 30px;
+}
+
+#n2{
+    position: absolute;
+    margin-left: 230px;
+    margin-top: -10px;
+    z-index: 99;
+    font-size: 130px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.601);
+}
+
+#two{
+    height: 95%;
+    width: 28%;
+    background-image: url(https://images.unsplash.com/photo-1633869699811-cd4f63049b36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fHdhdGNoJTIwZm9zc2lsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    position: relative;
+}
+
+#three{
+    height: 100%;
+    width: 35%;
+}
+
+h6{
+    position: absolute;
+    top: 80%;
+    left: 65%;
+    font-size: 20px;
+}
+
+h5{
+    position: absolute;
+    top: 84%;
+    left: 65%;
+    font-size: 17px;
+    color: rgb(67, 66, 66);
+}
